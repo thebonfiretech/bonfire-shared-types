@@ -1,7 +1,7 @@
 {
   "name": "bonfire-shared-types",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tipagens compartilhas do Bonfire",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thebonfiretech/shared-types.git"
+    "url": "git+https://github.com/thebonfiretech/bonfire-shared-types.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
-    "url": "https://github.com/thebonfiretech/shared-types/issues"
+    "url": "https://github.com/thebonfiretech/bonfire-shared-types/issues"
   },
-  "homepage": "https://github.com/thebonfiretech/shared-types#readme",
+  "homepage": "https://github.com/thebonfiretech/bonfire-shared-types#readme",
   "devDependencies": {
     "@types/node": "^22.13.4",
     "typescript": "^5.7.3"
