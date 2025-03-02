@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "node",
-      "noEmit": false,
+    "noEmit": false,
     "declaration": true,
     "outDir": "./dist",
     "rootDir": "./src",
