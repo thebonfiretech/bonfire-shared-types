@@ -4,7 +4,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "emitDeclarationOnly": true, 
     "declaration": true,
     "outDir": "./dist",
     "rootDir": "./src",
