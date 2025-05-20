@@ -41,7 +41,7 @@ export interface SpaceModelType {
     metrics?: {
         users: number;
     };
-    roles: SpaceRoleType,
+    roles: SpaceRoleType[],
     coins: number;
     modules: {
         economy: {
