@@ -21,6 +21,7 @@ export interface SpaceRoleType {
     system: boolean;
     createAt?: Date;
     name: string;
+    _id: string;
 };
 
 export interface SpaceModelType {
