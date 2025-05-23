@@ -10,4 +10,5 @@ export interface TransactionModelType {
   fromID?: ObjectId;
   toID?: ObjectId;
   items: any;
+  _id: string;
 }
