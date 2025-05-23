@@ -28,4 +28,5 @@ export interface PostModelType {
     attachments: string[];
     type: PostType;
     scope: PostScopeType;
+    _id: string;
 };
