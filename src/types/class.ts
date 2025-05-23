@@ -1,6 +1,7 @@
 import { Types } from "mongoose";
 
 export interface ClassModelType {
+    _id: string;
     name: string;
     space: {
         id: Types.ObjectId;
