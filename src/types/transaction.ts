@@ -7,8 +7,14 @@ export interface TransactionModelType {
   type: "buy" | "pix" | "other" | "investment";
   userID: ObjectId;
   value: number;
-  fromID?: ObjectId;
-  toID?: ObjectId;
+  fromID?: {
+    id: ObjectId;
+    name: string
+  };
+  toID?: {
+    id: ObjectId;
+    name: string
+  };
   items: any;
   _id: string;
 }
