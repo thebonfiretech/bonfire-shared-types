@@ -7,11 +7,11 @@ export interface TransactionModelType {
   type: "buy" | "pix" | "other" | "investment";
   userID: ObjectId;
   value: number;
-  fromID?: {
+  from?: {
     id: ObjectId;
     name: string
   };
-  toID?: {
+  to?: {
     id: ObjectId;
     name: string
   };
