@@ -6,6 +6,7 @@ export interface TransactionModelType {
   description?: string;
   type: "buy" | "pix" | "other" | "investment";
   userID: ObjectId;
+  spaceID?: ObjectId;
   value: number;
   from?: {
     id: ObjectId;
