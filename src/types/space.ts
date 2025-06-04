@@ -22,7 +22,7 @@ export interface SpaceRoleType {
     createAt?: Date;
     name: string;
     _id: string;
-};
+}
 
 export interface SpaceModelType {
     _id: string;
@@ -42,20 +42,25 @@ export interface SpaceModelType {
     metrics?: {
         users: number;
     };
-    roles: SpaceRoleType[],
+    roles: SpaceRoleType[];
     coins: number;
     modules: {
         economy: {
             updateStatusAt?: Date;
             lastUpdate?: Date;
+            lastCoinAddition?: Date;
             moduleAlreadyUsed: boolean;
             status: "active" | "inactive";
+            moduleIncludedInThePlan: boolean;
             systemConfig: {
                 initialCoins: number;
                 coinPerAddeduser: number;
                 investmentsSlots: number;
             };
-            config: {}
+            config: {
+                coinAdditionFrequency: "weekly" | "biweekly" | "monthly" | "disabled";
+                coinsByAddition: number;
+            };
         };
     };
-};
+}
