@@ -11,11 +11,11 @@ export interface TransactionModelType {
   from?: {
     id: ObjectId;
     name: string;
-    type: string;
+    reference: string;
   };
   to?: {
     id: ObjectId;
-    type: string;
+    reference: string;
     name: string
   };
   items: any;
