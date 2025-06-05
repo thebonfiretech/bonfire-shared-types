@@ -1,4 +1,5 @@
 export const SpaceRolePermissionsValues = [
+    "coin_distribution",
     "manage_categorys",
     "manage_tickets",
     "manage_modules",
