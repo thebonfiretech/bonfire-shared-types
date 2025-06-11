@@ -9,3 +9,4 @@ export * from "./types/ticket";
 export * from "./types/transaction";
 export * from "./types/user";
 export * from "./types/wallet";
+export * from "./types/category";
